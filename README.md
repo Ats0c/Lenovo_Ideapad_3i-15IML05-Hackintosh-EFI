@@ -1,8 +1,8 @@
 # Hackintosh-Config-Lenovo-IdeaPad-3I_10110U
 
-# **Remembering that the intention is to help and not steal someone else’s project!! All credits go to the original author.**
+# <br/>**Remembering that the intention is to help and not steal someone else’s project!! All credits go to the original author.**<br>
 
-## This configuration was adapted for the Lenovo Ideapad 3I with the 10100U processor so that some things work well.
+## <br/>This configuration was adapted for the Lenovo Ideapad 3I with the 10100U processor so that some things work well.<br>
 
 <br>Opencore was updated to 1.0.0 and all kexts too, CPUFriendFriend was used to fix the temperature and high battery consumption<br/>
 
