@@ -1,0 +1,1 @@
+# Hackintosh-Config-Lenovo-IdeaPad-3I_10110U
