@@ -1,4 +1,4 @@
-# <br/>**Remembering that the intention is to help and not steal someone else’s project!! [All credits go to the original author](https://www.olarila.com/topic/19326-efi-lenovo-ideapad-3i-15iml05-82bs0001br/).**<br>
+# **Remembering that the intention is to help and not steal someone else’s project!! [All credits go to the original author](https://www.olarila.com/topic/19326-efi-lenovo-ideapad-3i-15iml05-82bs0001br/).**
 
 ## <br/>This configuration was adapted for the Lenovo Ideapad 3I with the i3-10100U processor so that some things work well.<br>
 Opencore was updated to 1.0.0 and all kexts too
