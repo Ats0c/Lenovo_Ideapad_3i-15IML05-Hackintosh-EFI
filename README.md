@@ -66,6 +66,21 @@ Use MacBookPro13.1 SMBios (you can use others, but I don't guarantee that sleep 
    - Now format the PenDrive in FAT32 and copy the EFI and the folder you created to the root
    - When finished, restart and boot from the PenDrive
    - Go to disk utility and format the storage you are going to use into "APFS" and "GUID Partition Map" and start the system installation
+  
+## Generate your SMBios
+1. Using OCAT
+  - Search Plataform Info (or PI) and generate new SMBios on SystemProductName![Search Plataform Info (or PI) and generate new SMBios](https://github.com/Ats0c/Hackintosh-Config-Lenovo-IdeaPad-3I_10110U/blob/main/SMBios.png)
+2. Using GenSMBios
+  - Watch these tutorials to find out how to do it (I don't know how to do this lol)
+    - [In English](https://www.youtube.com/watch?v=dovJUlKgS5E)
+    - [In Portuguese](https://www.youtube.com/watch?v=YT8nFStOPW0)
+
+## What to disable in BIOS?
+- All configs about PXE
+- Secure Boot
+- Intel SGX
+- Boot Mode: UEFI
+- Flip to boot
 
 ## About MacOS update issues (ventura, sonoma and future updates)
 I don't think you necessarily need the latest version of the OS because we have rather weak and precarious hardware (yes, this notebook is bad). So I think it would be better if you used older versions of macOS (like Mojave, Catalina and BigSur) more for fluidity and also because it ensures that things like sleep work perfectly, versions like Ventura and Sonoma have a lot of suspension problems and even USB being unmapped completely out of nowhere. This is my opinion, you have every right to disagree with me and yes, I will create EFI for the Ventura and Sonoma in the future.
