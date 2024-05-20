@@ -31,7 +31,7 @@ Opencore was updated to 1.0.0 and all kexts too
 > *Now works perfectly*
 
 ## You must put this command to make sleep work
-> ### <br>![Just to help user to configure sleep](https://github.com/Ats0c/Hackintosh-Config-Lenovo-IdeaPad-3I_10110U/blob/main/Sleep_config.png):<br/>
+> ### <br>![Just to help user to configure sleep](https://github.com/Ats0c/Hackintosh-Config-Lenovo-IdeaPad-3I_10110U/blob/main/Sleep_config.png)<br/>
 
 > [!IMPORTANT]
 > It is recommended that you reset NVRAM only once after configuring sleep.
