@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>DeviceProperties</key>
+        <dict>
+            <key>Add</key>
+            <dict>
+                <key>PciRoot(0x0)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,0,0</string>
+                    <key>device_type</key>
+                    <string>Host/PCI Bridge</string>
+                    <key>model</key>
+                    <string>Intel Comet Lake-U 2C - Host Bridge/DRAM Controller</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x12,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,18,0</string>
+                    <key>device_type</key>
+                    <string>Data Acquisition / Signal Processing</string>
+                    <key>model</key>
+                    <string>Intel Comet Point-LP PCH - Thermal Controller</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,20,0</string>
+                    <key>device_type</key>
+                    <string>USB3 xHCI Controller</string>
+                    <key>model</key>
+                    <string>Intel Comet Point-LP PCH - USB 3.1 xHCI Host Controller</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x14,0x2)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,20,2</string>
+                    <key>device_type</key>
+                    <string>RAM Controller</string>
+                    <key>model</key>
+                    <string>Intel Comet Point-LP PCH - Shared SRAM</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x14,0x3)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,20,3</string>
+                    <key>device_type</key>
+                    <string>Network Controller</string>
+                    <key>model</key>
+                    <string>Intel Wireless-AC 9560 Wireless Network Adapter</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x15,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,21,0</string>
+                    <key>device_type</key>
+                    <string>Serial Bus Controller</string>
+                    <key>model</key>
+                    <string>Intel Comet Point-LP PCH - LPSS: I2C Controller 0</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x16,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,22,0</string>
+                    <key>device_type</key>
+                    <string>Communication Controller</string>
+                    <key>model</key>
+                    <string>Intel Comet Point-LP PCH - HECI Controller 1</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x17,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,23,0</string>
+                    <key>compatible</key>
+                    <string>pci8086,a352</string>
+                    <key>device_type</key>
+                    <string>SATA Controller</string>
+                    <key>model</key>
+                    <string>Intel Comet Point-LP PCH - SATA AHCI Controller</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x19,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,25,0</string>
+                    <key>device_type</key>
+                    <string>Serial Bus Controller</string>
+                    <key>model</key>
+                    <string>Intel Comet Point-LP PCH - LPSS: I2C Controller 4</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x1D,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,29,0</string>
+                    <key>device_type</key>
+                    <string>PCI/PCI bridge</string>
+                    <key>model</key>
+                    <string>Intel Comet Point-LP PCH - PCI Express Root Port 13</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,29,0/0,0</string>
+                    <key>device_type</key>
+                    <string>Non-Volatile memory controller</string>
+                    <key>model</key>
+                    <string>Apple NVMe</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,31,0</string>
+                    <key>device_type</key>
+                    <string>PCI/ISA Bridge</string>
+                    <key>model</key>
+                    <string>Intel Comet Point-LP PCH - LPC/eSPI Controller</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,31,3</string>
+                    <key>device_type</key>
+                    <string>High Definition Audio</string>
+                    <key>hda-gfx</key>
+                    <string>onboard-1</string>
+                    <key>layout-id</key>
+                    <data>CwAAAA==</data>
+                    <key>model</key>
+                    <string>Intel Comet Point-LP PCH - cAVS (Audio, Voice, Speech)</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x1F,0x4)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,31,4</string>
+                    <key>device_type</key>
+                    <string>SMBus Controller</string>
+                    <key>model</key>
+                    <string>Intel Comet Point-LP PCH - SMBus Host Controller</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x1F,0x5)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,31,5</string>
+                    <key>device_type</key>
+                    <string>Serial Bus Controller</string>
+                    <key>model</key>
+                    <string>Intel Comet Point-LP PCH - SPI (Flash) Controller</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+                <dict>
+                    <key>AAPL,ig-platform-id</key>
+                    <data>CQClPg==</data>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,2,0</string>
+                    <key>device-id</key>
+                    <data>mz4AAA==</data>
+                    <key>device_type</key>
+                    <string>VGA compatible controller</string>
+                    <key>disable-external-gpu</key>
+                    <data>AQAAAA==</data>
+                    <key>enable-hdmi-dividers-fix</key>
+                    <data>AQAAAA==</data>
+                    <key>enable-hdmi20</key>
+                    <data>AQAAAA==</data>
+                    <key>enable-lspcon-support</key>
+                    <data>AQAAAA==</data>
+                    <key>enable-max-pixel-clock-override</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con1-busid</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con1-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con1-flags</key>
+                    <data>hwEAAA==</data>
+                    <key>framebuffer-con1-type</key>
+                    <data>AAgAAA==</data>
+                    <key>framebuffer-con2-busid</key>
+                    <data>AgAAAA==</data>
+                    <key>framebuffer-con2-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con2-flags</key>
+                    <data>hwEAAA==</data>
+                    <key>framebuffer-con2-type</key>
+                    <data>AAgAAA==</data>
+                    <key>framebuffer-fbmem</key>
+                    <data>AACQAA==</data>
+                    <key>framebuffer-patch-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-stolenmem</key>
+                    <data>AAAwAQ==</data>
+                    <key>framebuffer-unifiedmem</key>
+                    <data>AAAAgA==</data>
+                    <key>hda-gfx</key>
+                    <string>onboard-1</string>
+                    <key>model</key>
+                    <string>Intel Iris Graphics 540</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x4,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,4,0</string>
+                    <key>device_type</key>
+                    <string>Data Acquisition / Signal Processing Controller</string>
+                    <key>model</key>
+                    <string>Intel Comet Lake-U 2C - Dynamic Platform &amp; Thermal Framework Processor Participant</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x8,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,8,0</string>
+                    <key>device_type</key>
+                    <string>Base System Peripheral</string>
+                    <key>model</key>
+                    <string>Intel Comet Lake-U 2C - Gaussian Mixture Model</string>
+                </dict>
+            </dict>
+            <key>Delete</key>
+            <dict/>
+        </dict>
+    </dict>
+</plist>
