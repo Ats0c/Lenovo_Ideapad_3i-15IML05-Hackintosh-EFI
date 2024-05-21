@@ -7,10 +7,10 @@ Opencore was updated to 1.0.0 and all kexts too
 kext from Airportitlwm has been updated for each version of macOS
 
 > [!NOTE]
-> Just pay attention to one detail, which is to update to Sonoma. You will need to disable SecureBootModel in Misc >     Security > SecureBootModel in EFI
+> Just pay attention to one detail, which is to update to Sonoma. Go to Misc > Security > SecureBootModel and leave it disabled, it's the only way to update to Mac OS Sonona.
 
 > [!NOTE]
-> You will have to find a way to activate this option before the first boot because you will get a black screen and be unable to use the system.
+> Because SecureBootModel is disabled, you will be greeted with a black screen after upgrading to Sonoma. So, I recommend you have a Dualboot to help with this problem.
 
 ## **Things that work with the original author's default configuration:**
 
