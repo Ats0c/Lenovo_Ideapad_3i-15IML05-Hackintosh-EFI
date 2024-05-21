@@ -91,8 +91,10 @@ Use MacBookPro13.1 SMBios
 - All configs about PXE
 - Secure Boot
 - Intel SGX
-- Boot Mode: UEFI
 - Flip to boot
+
+> [!NOTE]
+> Set the boot mode to UEFI if not.
 
 ## About MacOS update issues (ventura, sonoma and future updates)
 I don't think you necessarily need the latest version of the OS because we have rather weak and precarious hardware (yes, this notebook is bad). So I think it would be better if you used older versions of macOS (like Mojave, Catalina and BigSur) more for fluidity and also because it ensures that things like sleep work perfectly, versions like Ventura and Sonoma have a lot of suspension problems and even USB being unmapped completely out of nowhere. This is my opinion, you have every right to disagree with me and yes, I will create EFI for the Ventura and Sonoma in the future.
