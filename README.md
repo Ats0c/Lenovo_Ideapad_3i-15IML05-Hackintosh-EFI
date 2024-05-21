@@ -2,6 +2,15 @@
 
 ## <br/>This configuration was adapted for the Lenovo Ideapad 3I with the i3-10100U processor so that some things work well.<br>
 Opencore was updated to 1.0.0 and all kexts too
+
+## It is now possible to update to macOS ventura and sonoma!!
+
+> [!NOTE]
+> Just pay attention to one detail, which is to update to Sonoma. You will need to disable SecureBootModel in Misc >     Security > SecureBootModel in EFI
+
+> [!NOTE]
+> You will have to find a way to activate this option before the first boot because you will get a black screen and be unable to use the system.
+
 ## **Things that work with the original author's default configuration:**
 
   - *Webcam (Lenovo UVC Camera)*
@@ -46,7 +55,9 @@ ACPI patches I made:
  - *SSDT-RTCAWAC*
 
 ## Which SMBios should I use?
-Use MacBookPro13.1 SMBios (you can use others, but I don't guarantee that sleep will work)
+Use MacBookPro13.1 SMBios
+> [!NOTE]
+> you can use others, but I don't guarantee that sleep will work.
 <br><br/>
 
 ## Ways to install macOS:
