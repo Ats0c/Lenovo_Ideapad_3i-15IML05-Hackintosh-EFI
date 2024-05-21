@@ -4,6 +4,7 @@
 Opencore was updated to 1.0.0 and all kexts too
 
 ## It is now possible to update to macOS ventura and sonoma!!
+kext from Airportitlwm has been updated for each version of macOS
 
 > [!NOTE]
 > Just pay attention to one detail, which is to update to Sonoma. You will need to disable SecureBootModel in Misc >     Security > SecureBootModel in EFI
