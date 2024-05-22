@@ -2,7 +2,7 @@
 
 ![only banner](https://github.com/Ats0c/Lenovo_Ideapad_3i-15IML05-Hackintosh-EFI/blob/main/Images/Banner.png)
 
-## **<br/>Remembering that the intention is to help and not steal someone else’s project!! [All credits go to the original author](https://www.olarila.com/topic/19326-efi-lenovo-ideapad-3i-15iml05-82bs0001br/)<br>**
+## **<br/>Remembering that the intention is to help and not steal someone else’s project!! [All credits go to the original author](https://www.olarila.com/topic/19326-efi-lenovo-ideapad-3i-15iml05-82bs0001br/)[^1].<br>**
 
 ### <br/>This configuration was adapted for the Lenovo Ideapad 3I with the i3-10100U processor so that some things work well.<br>
 Opencore was updated to 1.0.0 and all kexts too
@@ -102,3 +102,5 @@ Use MacBookPro13.1 SMBios
 I don't think you necessarily need the latest version of the OS because we have rather weak and precarious hardware (yes, this notebook is bad). So I think it would be better if you used older versions of macOS (like Mojave, Catalina and BigSur) more for fluidity and also because it ensures that things like sleep work perfectly, versions like Ventura and Sonoma have a lot of suspension problems and even USB being unmapped completely out of nowhere. This is my opinion, you have every right to disagree with me.
 
 <br>I wanted to thank everyone who helps keep Hackintosh alive and a special thank you to [OzemirElion](https://www.olarila.com/profile/67412-ozemirelion/), creator of the original EFI<br/>
+
+[^1]: the entire EFI base was redone for this processor.
