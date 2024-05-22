@@ -104,6 +104,7 @@ Just good old [OCAT (OCAuxiliaryTools)](https://github.com/ic005k/OCAuxiliaryToo
 ## <br/>About MacOS update issues (ventura, sonoma and future updates)<br>
 I don't think you necessarily need the latest version of the OS because we have rather weak and precarious hardware (yes, this notebook is bad). So I think it would be better if you used older versions of macOS (like Mojave, Catalina and BigSur) more for fluidity and also because it ensures that things like sleep work perfectly, versions like Ventura and Sonoma have a lot of suspension problems and even USB being unmapped completely out of nowhere. This is my opinion, you have every right to disagree with me.
 
-<br>I wanted to thank everyone who helps keep Hackintosh alive and a special thank you to [OzemirElion](https://www.olarila.com/profile/67412-ozemirelion/), creator of the original EFI<br/>
+## Thanks
+I wanted to thank everyone who helps keep Hackintosh alive and a special thank you to [OzemirElion](https://www.olarila.com/profile/67412-ozemirelion/), creator of the original EFI
 
 [^1]: the entire EFI base was redone for this processor.
