@@ -1,9 +1,13 @@
-# **Remembering that the intention is to help and not steal someone else’s project!! [All credits go to the original author](https://www.olarila.com/topic/19326-efi-lenovo-ideapad-3i-15iml05-82bs0001br/).**
+# Lenovo_Ideapad_3i-15IML05-Hackintosh-EFI
 
-## <br/>This configuration was adapted for the Lenovo Ideapad 3I with the i3-10100U processor so that some things work well.<br>
+![only banner](https://github.com/Ats0c/Lenovo_Ideapad_3i-15IML05-Hackintosh-EFI/blob/main/Images/Banner.png)
+
+## **<br/>Remembering that the intention is to help and not steal someone else’s project!! [All credits go to the original author](https://www.olarila.com/topic/19326-efi-lenovo-ideapad-3i-15iml05-82bs0001br/)<br>**
+
+### <br/>This configuration was adapted for the Lenovo Ideapad 3I with the i3-10100U processor so that some things work well.<br>
 Opencore was updated to 1.0.0 and all kexts too
 
-## It is now possible to update to macOS ventura and sonoma!!
+### It is now possible to update to macOS ventura and sonoma!!
 kext from Airportitlwm has been updated for each version of macOS
 
 > [!NOTE]
@@ -12,7 +16,7 @@ kext from Airportitlwm has been updated for each version of macOS
 > [!NOTE]
 > Because SecureBootModel is disabled, you will be greeted with a black screen after upgrading to Sonoma. So, I recommend you have a Dualboot to help with this problem.
 
-## **Things that work with the original author's default configuration:**
+### **Things that work with the original author's default configuration:**
 
   - *Webcam (Lenovo UVC Camera)*
   - *Touchpad (ELAN I2C)*
@@ -20,7 +24,7 @@ kext from Airportitlwm has been updated for each version of macOS
   - *Brightness Control (F11/F12 Keys)*
 <br/><br/>
 
-## **Things that work in my setup:**
+### **Things that work in my setup:**
 
   - *CPU (Intel Core i3-10110U)*
   - *Audio (Realtek ALC257)*
@@ -40,8 +44,8 @@ kext from Airportitlwm has been updated for each version of macOS
 *Sleep*
 > *Now works perfectly*
 
-## You must put this command to make sleep work
-> ### ![Just to help user to configure sleep](https://github.com/Ats0c/Hackintosh-Config-Lenovo-IdeaPad-3I_10110U/blob/main/Sleep_config.png)
+### You must put this command to make sleep work
+> ### ![Just to help user to configure sleep](https://github.com/Ats0c/Lenovo_Ideapad_3i-15IML05-Hackintosh-EFI/blob/main/Images/Sleep_config.png)
 
 > [!IMPORTANT]
 > It is recommended that you reset NVRAM only once after configuring sleep.
@@ -55,13 +59,13 @@ ACPI patches I made:
  - *SSDT-UIAC*
  - *SSDT-RTCAWAC*
 
-## Which SMBios should I use?
+### Which SMBios should I use?
 Use MacBookPro13.1 SMBios
 > [!NOTE]
 > you can use others, but I don't guarantee that sleep will work.
 <br><br/>
 
-## Ways to install macOS:
+### Ways to install macOS:
 1. **Using the image available on Olarila.com**
    - Go to [olarila.com](https://www.olarila.com/topic/6278-olarila-vanilla-images-macos-installer/) and download the macOS monterey image
    - Flash the image onto a PenDrive of at least 16GB using [Balena Etcher](https://etcher.balena.io/)
@@ -79,15 +83,15 @@ Use MacBookPro13.1 SMBios
    - When finished, restart and boot from the PenDrive
    - Go to disk utility and format the storage you are going to use into "APFS" and "GUID Partition Map" and start the system installation
   
-## Generate your SMBios
+### Generate your SMBios
 1. Using OCAT
-  - Search Plataform Info (or PI) and generate new SMBios on SystemProductName![Search Plataform Info (or PI) and generate new SMBios](https://github.com/Ats0c/Hackintosh-Config-Lenovo-IdeaPad-3I_10110U/blob/main/SMBios.png)
+  - Search Plataform Info (or PI) and generate new SMBios on SystemProductName![Search Plataform Info (or PI) and generate new SMBios](https://github.com/Ats0c/Lenovo_Ideapad_3i-15IML05-Hackintosh-EFI/blob/main/Images/SMBios.png)
 2. Using GenSMBios
   - Watch these tutorials to find out how to do it (I don't know how to do this lol)
     - [In English](https://www.youtube.com/watch?v=dovJUlKgS5E)
     - [In Portuguese](https://www.youtube.com/watch?v=YT8nFStOPW0)
 
-## What to disable in BIOS?
+### What to disable in BIOS?
 - All configs about PXE
 - Secure Boot
 - Intel SGX
