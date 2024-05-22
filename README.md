@@ -63,7 +63,6 @@ ACPI patches I made:
 Use MacBookPro13.1 SMBios
 > [!NOTE]
 > you can use others, but I don't guarantee that sleep will work.
-<br><br/>
 
 ### Ways to install macOS:
 1. **Using the image available on Olarila.com**
