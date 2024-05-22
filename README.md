@@ -95,7 +95,7 @@ Use MacBookPro13.1 SMBios
 - Intel SGX
 - Flip to boot
 
-> [!NOTE]
+> [!IMPORTANT]
 > Set the boot mode to UEFI if not.
 
 ## <br/>About MacOS update issues (ventura, sonoma and future updates)<br>
