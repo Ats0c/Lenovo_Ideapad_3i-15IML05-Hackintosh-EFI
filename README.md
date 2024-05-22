@@ -1,4 +1,4 @@
-# Lenovo_Ideapad_3i-15IML05-Hackintosh-EFI
+# EFI of Lenovo Ideapad 3i 15IML05 (i3-10110U) for macOS monterey, ventura and sonoma
 
 ![only banner](https://github.com/Ats0c/Lenovo_Ideapad_3i-15IML05-Hackintosh-EFI/blob/main/Images/Banner.png)
 
@@ -7,7 +7,7 @@
 ### <br/>This configuration was adapted for the Lenovo Ideapad 3I with the i3-10100U processor so that some things work well.<br>
 Opencore was updated to 1.0.0 and all kexts too
 
-### It is now possible to update to macOS ventura and sonoma!!
+### <br/>It is now possible to update to macOS ventura and sonoma!!<br>
 kext from Airportitlwm has been updated for each version of macOS
 
 > [!NOTE]
@@ -16,15 +16,14 @@ kext from Airportitlwm has been updated for each version of macOS
 > [!NOTE]
 > Because SecureBootModel is disabled, you will be greeted with a black screen after upgrading to Sonoma. So, I recommend you have a Dualboot to help with this problem.
 
-### **Things that work with the original author's default configuration:**
+### <br/>Things that work with the original author's default configuration:<br>
 
   - *Webcam (Lenovo UVC Camera)*
   - *Touchpad (ELAN I2C)*
   - *HDMI (Audio + Video)*
   - *Brightness Control (F11/F12 Keys)*
-<br/><br/>
 
-### **Things that work in my setup:**
+### <br/>Things that work in my setup:<br>
 
   - *CPU (Intel Core i3-10110U)*
   - *Audio (Realtek ALC257)*
@@ -44,13 +43,13 @@ kext from Airportitlwm has been updated for each version of macOS
 *Sleep*
 > *Now works perfectly*
 
-### You must put this command to make sleep work
+### <br/>You must put this command to make sleep work<br>
 > ### ![Just to help user to configure sleep](https://github.com/Ats0c/Lenovo_Ideapad_3i-15IML05-Hackintosh-EFI/blob/main/Images/Sleep_config.png)
 
 > [!IMPORTANT]
 > It is recommended that you reset NVRAM only once after configuring sleep.
 
-ACPI patches I made:
+### <br/>ACPI patches I made:<br>
  - *SSDT-DATA (Working together from kext CPUFriendFriend)*
  - *SSDT-USBX*
  - *SSDT-RHUB (Just redone to avoid hardware problems)*
@@ -59,12 +58,12 @@ ACPI patches I made:
  - *SSDT-UIAC*
  - *SSDT-RTCAWAC*
 
-### Which SMBios should I use?
+## <br/>Which SMBios should I use?<br>
 Use MacBookPro13.1 SMBios
 > [!NOTE]
 > you can use others, but I don't guarantee that sleep will work.
 
-### Ways to install macOS:
+## <br/>Ways to install macOS:<br>
 1. **Using the image available on Olarila.com**
    - Go to [olarila.com](https://www.olarila.com/topic/6278-olarila-vanilla-images-macos-installer/) and download the macOS monterey image
    - Flash the image onto a PenDrive of at least 16GB using [Balena Etcher](https://etcher.balena.io/)
@@ -82,7 +81,7 @@ Use MacBookPro13.1 SMBios
    - When finished, restart and boot from the PenDrive
    - Go to disk utility and format the storage you are going to use into "APFS" and "GUID Partition Map" and start the system installation
   
-### Generate your SMBios
+## <br/>Generate your SMBios<br>
 1. Using OCAT
   - Search Plataform Info (or PI) and generate new SMBios on SystemProductName![Search Plataform Info (or PI) and generate new SMBios](https://github.com/Ats0c/Lenovo_Ideapad_3i-15IML05-Hackintosh-EFI/blob/main/Images/SMBios.png)
 2. Using GenSMBios
@@ -90,7 +89,7 @@ Use MacBookPro13.1 SMBios
     - [In English](https://www.youtube.com/watch?v=dovJUlKgS5E)
     - [In Portuguese](https://www.youtube.com/watch?v=YT8nFStOPW0)
 
-### What to disable in BIOS?
+## <br/>What to disable in BIOS?<br>
 - All configs about PXE
 - Secure Boot
 - Intel SGX
@@ -99,7 +98,7 @@ Use MacBookPro13.1 SMBios
 > [!NOTE]
 > Set the boot mode to UEFI if not.
 
-## About MacOS update issues (ventura, sonoma and future updates)
+## <br/>About MacOS update issues (ventura, sonoma and future updates)<br>
 I don't think you necessarily need the latest version of the OS because we have rather weak and precarious hardware (yes, this notebook is bad). So I think it would be better if you used older versions of macOS (like Mojave, Catalina and BigSur) more for fluidity and also because it ensures that things like sleep work perfectly, versions like Ventura and Sonoma have a lot of suspension problems and even USB being unmapped completely out of nowhere. This is my opinion, you have every right to disagree with me and yes, I will create EFI for the Ventura and Sonoma in the future.
 
 <br>I wanted to thank everyone who helps keep Hackintosh alive and a special thank you to [OzemirElion](https://www.olarila.com/profile/67412-ozemirelion/), creator of the original EFI<br/>
