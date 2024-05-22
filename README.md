@@ -10,10 +10,10 @@ Opencore was updated to 1.0.0 and all kexts too
 ### <br/>It is now possible to update to macOS ventura and sonoma!!<br>
 kext from Airportitlwm has been updated for each version of macOS
 
-> [!NOTE]
+> [!IMPORTANT]
 > Just pay attention to one detail, which is to update to Sonoma. Go to Misc > Security > SecureBootModel and leave it disabled, it's the only way to update to Mac OS Sonona.
 
-> [!NOTE]
+> [!WARNING]
 > Because SecureBootModel is disabled, you will be greeted with a black screen after upgrading to Sonoma. So, I recommend you have a Dualboot to help with this problem.
 
 ### <br/>Things that work with the original author's default configuration:<br>
@@ -97,6 +97,9 @@ Use MacBookPro13.1 SMBios
 
 > [!IMPORTANT]
 > Set the boot mode to UEFI if not.
+
+## What tool did you use to modify the EFI?
+Just good old [OCAT (OCAuxiliaryTools)](https://github.com/ic005k/OCAuxiliaryTools/releases)
 
 ## <br/>About MacOS update issues (ventura, sonoma and future updates)<br>
 I don't think you necessarily need the latest version of the OS because we have rather weak and precarious hardware (yes, this notebook is bad). So I think it would be better if you used older versions of macOS (like Mojave, Catalina and BigSur) more for fluidity and also because it ensures that things like sleep work perfectly, versions like Ventura and Sonoma have a lot of suspension problems and even USB being unmapped completely out of nowhere. This is my opinion, you have every right to disagree with me.
